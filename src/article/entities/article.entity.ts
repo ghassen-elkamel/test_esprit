@@ -9,8 +9,8 @@ export const ArticleSchema = new mongoose.Schema({
     author : {
         type: String,
     },})
-    export interface Article extends mongoose.Document {
-    id: string;
+    export interface Article {
+    _id: string;
     title: string;
     content: string;
     author: string;
